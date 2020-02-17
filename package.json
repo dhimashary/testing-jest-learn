@@ -1,0 +1,22 @@
+{
+  "name": "supertest2",
+  "version": "1.0.0",
+  "description": "JEST  expect.any expect.toBe expect.arrayContaining expect.toHaveLength expect.toHaveProperty expect.objectContaining",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=testing jest --detectOpenHandles"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "pg": "^7.18.1",
+    "sequelize": "^5.21.4"
+  }
+}
